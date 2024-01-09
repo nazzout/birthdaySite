@@ -104,17 +104,6 @@ body {
     filter: invert(100%);
 }
 
-/*
-Challenge:
-Swap the gift paper image out with
-the happy.gif when you hover over it!
-*/
-
-.gift-img.active {
-    transform: scale(0.95); /* Slightly scale down the element */
-    opacity: 0.8; /* Reduce the opacity of the element */
-    transition: transform 0.2s, opacity 0.2s; /* Add a smooth transition effect */
-}
 
 #gift-img-happy:hover {
     background-image: url("images/happy.gif");
@@ -177,19 +166,7 @@ the happy.gif when you hover over it!
     object-fit: cover;
 }
 
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
-
-#footer {
+/* #footer {
     width: 400px;
     margin: 40px auto 20px;
     font-style: italic;
@@ -197,4 +174,4 @@ Want to create your own Birthday GIFt site? Take this HTML & CSS course.
 
 a {
     color: white;
-}
+} */
